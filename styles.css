@@ -1,0 +1,109 @@
+/*general styles*/
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-heading,
+.masthead-intro,
+.footer-section {
+  text-align: center;
+}
+
+.introduction-section > p,
+.location-section > p,
+.footer-section > p {
+  font-weight: 300;
+  font-spacing: 0.05em;
+}
+a:link {
+  text-decoration: none;
+  color: #1EB2B9;
+}
+
+a:visited {
+  color: #DA39A0;
+}
+
+a:hover {
+  color: #E0CA08;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+/*header styles*/
+.masthead-heading {
+  text-shadow: 5px 5px 5px #1EB2B9;
+}
+.masthead {
+  padding: 20em;
+  background-image: url(https://images.unsplash.com/photo-1429734160945-4f85244d6a5a?q=80&fm=jpg&s=1e4502a7439b5792e5b7b0a25811baba);
+  border-top: 0.625em solid #1EB2B9;
+  background-size: cover;
+  margin-top: -0.5em;
+  background-repeat: no repeat;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -.02em;
+  text-transform: uppercase;
+}
+/*Content styles*/
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+  color: #1EB2B9
+}
+/*footer styles*/
+
+.footer-section {
+  padding: 5em;
+  background-color: #4A4946;
+  background-size: cover;
+  background-repeat: no repeat;
+}
+
+.footer-list > li {
+  display: inline-block;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.footer-outro > a {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.footer-section > p {
+  color: white;
+}
